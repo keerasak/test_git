@@ -8,55 +8,58 @@
     td {
         border: 1px solid black;
     }
+    .content {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
 </style>
 
-<body> 
+<body>
+    <div class="content">
 
-    <center>
-        <div>
-            <h3>Americano - Benz Keerasak</h3>
-            <table style="float:center">
-                <tr>
-                    <th colspan="2">Pizza Shop 2.0</th>
-                    <!-- <th>...</th> -->
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td><input type="text" value=""></td>
-                </tr>
-                <tr>
-                    <td>Pizza Topping</td>
-                    <td>
-                        <input type="radio" name="Supreme">Supreme<br>
-                        <input type="radio" name="Vegetarian">Vegetarian<br>
-                        <input type="radio" name="Hawaiian">Hawaiian
-                    </td>
-                </tr>
-                <tr>
-                    <td>Pizza Sauce</td>
-                    <td>
-                        <select name="sauce">
-                            <option>Tomato</option>
-                            <option>Spicy</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Option Extra</td>
-                    <td>
-                        <input type="checkbox" name="Extra Checse" value="Checse">Extra Checse
-                        <input type="checkbox" name="Gluten Free Base" value="Free Base">Extra ChecseGluten Free Base
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">Delivery Instruction:<br>
-                        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
-                        <button type="button">Send my Order</button>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </center>
+        <h3>Americano - Benz Keerasak</h3>
+        <table style="width: 100%;">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+                <!-- <th>...</th> -->
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" value=""></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio" name="Supreme">Supreme<br>
+                    <input type="radio" name="Vegetarian">Vegetarian<br>
+                    <input type="radio" name="Hawaiian">Hawaiian
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select name="sauce">
+                        <option>Tomato</option>
+                        <option>Spicy</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Option Extra</td>
+                <td>
+                    <input type="checkbox" name="Extra Checse" value="Checse">Extra Checse
+                    <input type="checkbox" name="Gluten Free Base" value="Free Base">Extra ChecseGluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Delivery Instruction:<br>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+                    <button type="button">Send my Order</button>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>

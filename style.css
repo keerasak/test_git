@@ -297,7 +297,7 @@ section:last-child {
 }
 
 .instaFade {
-    /* -webkit-animation-name: reset, fade-in;
+    -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
 	
@@ -307,7 +307,7 @@ section:last-child {
 	
 	animation-name: reset, fade-in;
     animation-duration: 1.5s;
-    animation-timing-function: ease-in; */
+    animation-timing-function: ease-in; 
 }
 
 .quickFade {

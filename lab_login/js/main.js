@@ -5,7 +5,7 @@
 
     /*==================================================================
     [ Validate ]*/
-    var input = $('.validate-input .input100');
+    //var input = $('.validate-input .input100');
 
     // $('.validate-form').on('submit',function(){
     //     var check = true;

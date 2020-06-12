@@ -23,8 +23,8 @@ p {
 }
 
 #cv {
-	width: 90%;
-	max-width: 800px;
+	width: 100%;
+	
 	background: #f3f3f3;
 	margin: 30px auto;
 }
